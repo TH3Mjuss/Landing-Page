@@ -37,6 +37,7 @@ header {
 }
 
 .header-links ul li {
+    font-size: 18px;
     margin-right: 20px;
 }
 
@@ -77,21 +78,42 @@ button{
     color: #F9FAF8;
     font-weight: bold;
     border-style: none;
-    border-radius: 16px;
+    border-radius: 7px;
     padding: 7px 16px;
     margin-right: auto;
 }
 
 .Hero-tile img {
     width: 600px;
+    border-radius: 16px;
+}
+
+.title-top {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;;
 }
 
 .top-games {
     margin-top: 30px;
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: justify;
 }
 
-.title-top {
-    font-size: 36px;
-    font-weight: 900;
-    text-align: center;
+.top-games img {
+    width: 150px;
+    border: 2px solid #FECD70;
+    border-radius: 16px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.game-tile {
+    width: 400px;
 }
