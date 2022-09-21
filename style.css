@@ -96,17 +96,19 @@ button{
     border-radius: 16px;
 }
 
+.games{
+    height: 400px;
+}
+
 .title-top {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .top-games {
-    margin-top: 20px;
-    margin-bottom: 150px;
     padding: 20px;
     display: flex;
     align-items: center;
