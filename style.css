@@ -12,15 +12,18 @@ ul {
     list-style: none;
 }
 
-header {
+header, footer {
     background-color: #1F2937;
     color: #DAA520;
+    display: flex;
+    align-items: center;
+}
+
+header {
     position: relative;
     height: 100px;
     padding: 5px;
 
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
@@ -110,6 +113,7 @@ button{
 
 .top-games {
     padding: 20px;
+    margin: 0px 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -203,10 +207,6 @@ button{
 
 footer {
     height: 70px;
-    background-color: #1F2937;
-    color: #DAA520;
-    display: flex;
-    align-items: center;
     justify-content: center;
 }
 
