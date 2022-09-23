@@ -48,7 +48,6 @@ header {
 .content{
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 
 .hero-tile{
@@ -101,6 +100,7 @@ button{
 
 .games{
     height: 400px;
+    flex: 1;
 }
 
 .title-top {
@@ -114,6 +114,7 @@ button{
 .top-games {
     padding: 20px;
     margin: 0px 10px;
+    gap: 60px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -127,10 +128,6 @@ button{
     display: flex;
     margin: auto;
     margin-bottom: 15px;
-}
-
-.game-tile {
-    width: 400px;
 }
 
 .quote {
