@@ -94,7 +94,8 @@ button{
 }
 
 .hero-tile img {
-    width: 600px;
+    width: 40%; /*600px */
+    height: auto;
     border-radius: 16px;
 }
 
@@ -139,6 +140,7 @@ button{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    flex-shrink: 0;
 }
 
 .quote-txt {
@@ -160,18 +162,20 @@ button{
     text-align: end;
     margin-right: 150px;
     padding: 0;
-    flex-shrink: 0;
 }
 
 .inscription {
     height: 400px;
+    color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 .insc-box {
-    margin: 50px 200px;
+    box-sizing: content-box;
+    width: 60%;
+
     padding: 50px;
     background-color: #DAA520;
     border-radius: 16px;
@@ -181,7 +185,7 @@ button{
 }
 
 .left-insc {
-    width: 900px;
+    width: 80%;
 }
 
 .insc-title {
@@ -192,7 +196,7 @@ button{
 
 .insc-txt{
     text-align: justify;
-    width: 700px;
+    width: 80%;
 }
 
 .insc-button {
