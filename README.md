@@ -6,3 +6,4 @@
 - Carcassonne picture credits to [Z-Man Games](https://www.zmangames.com/en/products/carcassonne/)
 - Catan picture credits to [Kosmos](https://www.kosmos.de/)
 - Welcome picture credits to [Blue Cocker](https://bluecocker.com/)
+- Favion credits to [Hilmy Abiyyu A.](https://www.flaticon.com/fr/auteurs/hilmy-abiyyu-a)

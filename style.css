@@ -8,11 +8,12 @@ body {
     flex-direction: column;
 }
 
-ul {
+ul, a {
     list-style: none;
+    text-decoration: none;
 }
 
-header, footer {
+header, footer, a {
     background-color: #1F2937;
     color: #DAA520;
     display: flex;
@@ -209,6 +210,11 @@ button{
 footer {
     height: 70px;
     justify-content: center;
+}
+
+footer a {
+    margin-left: 5px;
+    color: #DAA520
 }
 
 footer img {
